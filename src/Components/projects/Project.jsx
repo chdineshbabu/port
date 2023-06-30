@@ -12,7 +12,7 @@ function Project() {
                 <h5>Student Blog site</h5>
                 <p className='card-text'>An full stack Blog site with google authentication process for students to upload there daily blogs to share there thoughts to world, this is an simple and minimal site which is user friendly to use.</p>
                 <p>React.js,JavaScript,CSS,Mongo,Express</p>
-                <a href='#'>Explore <img className='link_img' src={redirect} alt='link'/></a>
+                <a href='https://blog-site-ten-neon.vercel.app/'>Explore <img className='link_img' src={redirect} alt='link'/></a>
             </div>
             <div className='card'>
                 <h5>Personal Portflio</h5>
