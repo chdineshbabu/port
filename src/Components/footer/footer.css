@@ -1,0 +1,54 @@
+.ft_form{
+    background-color: black;
+    color: white;
+
+}
+.text_ft{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.input_in{
+    padding: 1rem 25rem;
+}
+.input_ft{
+    padding: 1rem;
+}
+
+.input_ft label{
+    padding-bottom: 0.5rem;
+}
+.sap_ft{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sap {
+    background: #beb3bb;
+    opacity: 70%;
+    width: 80%;
+    height: 2px;
+    margin: 1rem 0;
+    padding: 0 ;
+  }
+  p{
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem 8rem 0rem;
+  }
+
+  .ft_p{
+    padding: 1rem 0rem;
+  }

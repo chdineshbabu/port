@@ -1,0 +1,45 @@
+.fs-buttons {
+  position: fixed;
+  width: 42px;
+}
+.fs-buttons .fs-button {
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(0, 0%, 100%);
+  color: white;
+  text-decoration: none;
+  margin-top: 1rem;
+  transition: all ease-out 0.25s;
+  font-size: 20px;
+}
+.fs-buttons .fs-button:hover {
+  transform: scale(1.1);
+  transition: all ease-in 0.25s;
+}
+.fs-buttons.on-bottom {
+  bottom: 1rem;
+}
+.fs-buttons.on-right {
+  right: 2rem;
+}
+.fs-buttons.on-top {
+  top: 1rem;
+}
+.fs-buttons.on-left {
+  left: 1rem;
+}
+.fs-buttons .is-instagram {
+  background: rgba(0, 0, 0, 0);
+}
+.fs-buttons .is-twitter {
+  background: #ffffff00;
+}
+.fs-buttons .is-facebook {
+  background: #9e626200;
+}

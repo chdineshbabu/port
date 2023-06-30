@@ -1,0 +1,82 @@
+
+.main{
+    background-image: linear-gradient(to right top, #000000, #000000, #000000, #000000, #000000);
+    color: #A3CFCD;
+    padding: 8rem 10rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+
+
+}
+.desc{
+    color: #ffffff;
+}
+
+.title_img{
+    width: 30rem;
+    height: auto;
+    padding-top: 3rem;
+}
+.title_main{
+    padding: 7rem;
+
+}
+.tt_1{
+    color: #5B63B7;
+    font-size: 3.5rem;
+}
+.typing-demo {
+    width: 10ch;
+    animation: typing 1s steps(10), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2.5em;
+    padding-bottom: 1rem;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  .botn {
+    margin-top: 2rem;
+    padding: 8px 15px;
+    border:0;
+    border:2px solid rgb(240, 239, 239);
+    border-radius: 4px;
+    background: black;
+    outline: 0; 
+    transition: 0.2s;
+    color: #ebebeb;
+  }
+  .botn-fill {
+    transition: 0.2s ease-in-out;
+  }
+  .botn-fill:hover{
+    color:white;
+    box-shadow: 0 0 50px 50px #1f2240 inset,0 0 10px #333;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .main{
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+    }
+    .title_img{
+      padding: 1rem 5rem 5rem 5rem;
+      width: auto;
+    }
+  }
